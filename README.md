@@ -3,13 +3,21 @@
 ## How to test the model?
 
 1. `git clone https://github.com/Ankit777767/NTIRE-2025`
-2. `pip install -r [path to requirement.txt]`
+2. `pip install -r [path to requirements.txt]`
 3. Run This Code To Test The Model:
     ```bash
     CUDA_VISIBLE_DEVICES=0 python [path to test.py] --valid_dir [path to val data dir] --test_dir [path to test data dir] --save_dir [path to your save dir] --model_id 25
     ```
     - You can use either `--valid_dir`, or `--test_dir`, or both of them. Be sure the change the directories `--valid_dir`/`--test_dir` and `--save_dir`.
-    
+
+## Model Pretrained Weights
+    # You can use our pretrain weights from this:
+    `pip install gdown`
+    `https://drive.google.com/file/d/1tUBeXw_X5rviTeEMbRm5KqCcR4sU3J-a/view`
+## Model Output
+    #
+    `pip install gdown'
+    `https://drive.google.com/file/d/1FvCGTIp2GNqT1d9_ZnuxDgOW6Fdf3PA-/view`
 
 ## How to eval images using IQA metrics?
 
