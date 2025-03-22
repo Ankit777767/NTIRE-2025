@@ -23,7 +23,7 @@ def select_model(args, device):
         model_func = DAT
 
     elif model_id == 25:
-        #HAT
+        #DAT
         from models.team25_DAT import DAT
         name = f"{model_id:25}_DAT"
         model_path = os.path.join('model_zoo', 'team25_DAT.pth')
