@@ -13,11 +13,11 @@
 ## Model Pretrained Weights
     # You can use our pretrain weights from this:
     `pip install gdown`
-    `https://drive.google.com/file/d/1tUBeXw_X5rviTeEMbRm5KqCcR4sU3J-a/view`
-## Model Output
+    `gdown https://drive.google.com/file/d/1tUBeXw_X5rviTeEMbRm5KqCcR4sU3J-a/view`
+## Model Output On DIV2k
     #
     `pip install gdown'
-    `https://drive.google.com/file/d/1FvCGTIp2GNqT1d9_ZnuxDgOW6Fdf3PA-/view`
+    `gdown https://drive.google.com/file/d/1FvCGTIp2GNqT1d9_ZnuxDgOW6Fdf3PA-/view`
 
 ## How to eval images using IQA metrics?
 
