@@ -3,7 +3,8 @@
 ## How to test the model?
 
 1. `git clone https://github.com/Ankit777767/NTIRE-2025`
-2. Run This Code To Test The Model:
+2. `pip install -r [path to requirement.txt]`
+3. Run This Code To Test The Model:
     ```bash
     CUDA_VISIBLE_DEVICES=0 python [path to test.py] --valid_dir [path to val data dir] --test_dir [path to test data dir] --save_dir [path to your save dir] --model_id 25
     ```
